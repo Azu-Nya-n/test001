@@ -7,9 +7,9 @@ int main()
 
 	int a = 0;
 
-	while (a == 20)
+	while (a != 20)
 	{
-		cin >> a;
+		cin >> a  endl;
 		cout << a;
 	}
 
