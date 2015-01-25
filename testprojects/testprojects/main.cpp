@@ -7,8 +7,11 @@ int main()
 
 	int a = 0;
 
-	cin >> a;
-	cout << a;
+	while (a == 20)
+	{
+		cin >> a;
+		cout << a;
+	}
 
 	return 0;
 }
