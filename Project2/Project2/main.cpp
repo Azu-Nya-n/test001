@@ -9,8 +9,14 @@ int main()
 
 	while (a != 20)
 	{
+		cout << "”CˆÓ‚Ì®”‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"  ;
 		cin >> a;
 		cout << a << endl;
+	}
+
+	if (a == 20)
+	{
+		cout << "THE END ";
 	}
 
 	return 0;
