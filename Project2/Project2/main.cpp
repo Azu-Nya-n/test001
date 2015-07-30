@@ -13,7 +13,7 @@ int main(void)//引数を取らない関数であることをvoidで宣言
 	printf("int型の変数ｂに\t入力します　");//\tでタブを挿入
 	scanf_s("%d",&b);//scanf_sで変数に値を代入、scanfだとエラー
 
-	printf("moziは %c です\n", mozi);
+	printf("moziは\t%c です\n", mozi);
 
 	if (b == 10)
 	{
